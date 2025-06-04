@@ -1,0 +1,18 @@
+:root {
+   --color-text: #2d482f;
+   --color-title: #2c9733;
+   --color-primary: #efde82; 
+   --color-primaryDarker: #d6c355; 
+   --color-navBar: white;
+   --color-secondary: #f6e05e; 
+   --color-dark: #f0dc6a;
+   --color-bg: #ffffff;
+   --color-accent: #9ae6b4; 
+   --color-border: #4ac675; 
+   
+   --font-poppins: "Inter", "Poppins", -apple-system, BlinkMacSystemFont, sans-serif;
+   
+   /* Spacing */
+   --container-padding: clamp(1rem, 5vw, 5rem);
+   --section-spacing: clamp(3rem, 8vw, 8rem);
+}

@@ -1,0 +1,28 @@
+[
+    {
+      "title": "University Eagle Flight Plan",
+      "imageSrc": "flightplan.png",
+      "description": "Full-stack career planning platform helping students track semester-based goals with gamification features like leaderboards and badges.",
+      "skills": ["Vue.js", "Node.js", "MySQL", "JWT"],
+      "Frontend": "https://github.com/Ujackline/FlightPlan-frontend",
+      "Backend": "https://github.com/Ujackline/EagleFlightPlan-backend",
+      "category": "fullstack"
+    },
+    {
+      "title": "AI-Enhanced Resume Generator", 
+      "imageSrc": "resume.png",
+      "description": "Dynamic web application with AI-powered resume optimization and secure authentication using Google Auth.",
+      "skills": ["Vue.js", "JavaScript", "Google Auth", "AI"],
+      "Frontend": "https://github.com/Diella32/Project3-Frontend",
+      "Backend": "https://github.com/Diella32/Project3-backend",
+      "category": "fullstack"
+    },
+    {
+      "title": "AI-Powered Pacman Game",
+      "imageSrc": "pacman.png",
+      "description": "An intelligent Pacman game implementation using Python and Pygame, featuring AI algorithms for ghost behavior and pathfinding optimization",
+      "skills": ["Python", "Pygame", "AI Algorithms", "Pathfinding", "Game Development", "Object-Oriented Programming"],
+      "Frontend": "https://github.com/LauraNsenga/PacmanAI/",
+      "category": "AI"
+    }
+  ]

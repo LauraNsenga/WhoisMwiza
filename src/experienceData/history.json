@@ -1,0 +1,41 @@
+[
+  {
+    "role": "Technology Development Specialist",
+    "organisation": "JASCO",
+    "startDate": "January 2025",
+    "endDate": "May 2025",
+    "experiences": [
+      "Conduct in-depth analysis of emerging technologies to drive innovation and support strategic business goals",
+      "Manage the full lifecycle of technology development projects, from initial concept through implementation",
+      "Collaborate with internal and external stakeholders to identify business requirements and deliver customized solutions",
+      "Align technology solutions with organizational objectives and strategic planning"
+    ],
+    "imageSrc": "Jasco-logo-blue.png"
+  },
+  {
+    "role": "Quality Assurance Intern",
+    "organisation": "UL Solutions",
+    "startDate": "May 2024",
+    "endDate": "August 2024",
+    "experiences": [
+      "Conducted test setups and operated specialized laboratory equipment to evaluate wireless performance",
+      "Recorded up to 20 tests daily, analyzing results for accuracy and compliance with industry standards",
+      "Compiled detailed test reports and provided technical explanations of findings to stakeholders",
+      "Communicated with clients during setup and operation to ensure proper evaluation and compliance"
+    ],
+    "imageSrc": "ul.png"
+  },
+  {
+    "role": "IT Technician",
+    "organisation": "University Support Center",
+    "startDate": "August 2022",
+    "endDate": "December 2024",
+    "experiences": [
+      "Delivered end-to-end IT support to students and staff, addressing technical issues from user access control to software troubleshooting",
+      "Maintained precise records of all student and staff interactions for optimal service tracking",
+      "Managed high volume of support tickets via Zendesk, optimizing response efficiency and service quality",
+      "Provided comprehensive technical support across diverse IT infrastructure and user needs"
+    ],
+    "imageSrc": "OC-Logo.png"
+  }
+]

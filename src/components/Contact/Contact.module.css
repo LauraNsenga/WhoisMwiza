@@ -1,0 +1,248 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 100px;
+  background: linear-gradient(135deg, rgba(246, 230, 143, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  backdrop-filter: blur(10px);
+  border: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100vw;
+  padding: 50px 10%;
+  gap: 40px;
+  position: relative;
+  border-top: 3px solid #f7f7ef;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+}
+.title {
+  color: var(--color-text);
+  font-size: clamp(1rem, 5vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  border-radius: 2px;
+}
+
+
+.text h2 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  background: var(--color-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text p {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--color-text-secondary, #666);
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 24px;
+  flex: 1;
+  max-width: 500px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  width: 100%;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.8);
+  border-color: var(--color-primary);
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.link:hover .iconContainer {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(var(--color-primary-rgb, 254, 231, 98), 0.4);
+}
+
+.linkImages {
+  width: 24px;
+  height: 24px;
+}
+
+.linkContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.link a, .location {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: var(--color-primary);
+}
+
+.linkDescription {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary, #666);
+  font-weight: 400;
+}
+
+.copyButton {
+  align-self: flex-start;
+  background: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 4px;
+}
+
+.copyButton:hover {
+  background: var(--color-text);
+  color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.location {
+  font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 5%;
+    align-items: center;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: none;
+  }
+
+  .text h2 {
+    font-size: 2.5rem;
+  }
+
+  .links {
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .link {
+    justify-content: center;
+    padding: 14px 16px;
+  }
+
+  .linkContent {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 30px 5%;
+  }
+
+  .text h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .text p {
+    font-size: 1.2rem;
+  }
+
+  .link {
+    gap: 15px;
+    padding: 12px 14px;
+  }
+
+  .iconContainer {
+    width: 40px;
+    height: 40px;
+  }
+
+  .linkImages {
+    width: 20px;
+    height: 20px;
+  }
+}
