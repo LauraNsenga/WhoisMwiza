@@ -14,7 +14,7 @@ export const Mwiza = () => {
         <h1 className={styles.title}>Hi, I'm Laura</h1>
         
         <p className={styles.description}>
-        I'm a Computer Science graduate specializing in Cybersecurity with a passion for full-stack development and AI integration. I have experience building scalable web applications using Vue.js, React, and Node.js, and I'm currently pursuing my Master's in Artificial Intelligence. Outside of tech, I'm active in my church's worship team as a vocalist and guitarist/pianist, and I enjoy going on walks and playing basketball from time to time.
+        I'm a Computer Science graduate specializing in Cybersecurity with a passion for full-stack development and AI integration. I have experience building scalable web applications using Vue.js, React, and Node.js, and I'm currently pursuing my Master's in Artificial Intelligence. Outside of tech, I'm active in my church's worship team as a vocalist and enjoy playing guitar/piano.I also enjoy going on walks and playing basketball.
         </p>
         
         <div className={styles.stats}>
