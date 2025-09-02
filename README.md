@@ -6,5 +6,5 @@ Here is the link to the website:
 
 - https://mwizasworld.com/
 
- <img width="1435" height="679" alt="Image" src="https://github.com/user-attachments/assets/4ba3543d-9068-48b0-a6e2-b553d4cf83e4" />
+<img width="1417" height="679" alt="Image" src="https://github.com/user-attachments/assets/5ca4938c-2c58-4058-b991-2f0092874b45" />
 
