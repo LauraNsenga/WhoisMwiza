@@ -8,7 +8,7 @@ export const Mwiza = () => {
       <div className={styles.content}>
         <div className={styles.badge}>
           <span className={styles.statusDot}></span>
-          Graduating August 2025 • Available for hire
+          Graduated August 2025 • Available for hire
         </div>
         
         <h1 className={styles.title}>Hi, I'm Laura</h1>
