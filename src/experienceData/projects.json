@@ -1,6 +1,6 @@
 [
     {
-      "title": "Eagle Flight Plan” Career Services Web App",
+      "title": " 'Eagle Flight Plan' Career Services Web App",
       "imageSrc": "flightplan.png",
       "description": "Full-stack career planning platform helping students track semester-based goals with gamification features like leaderboards and badges.",
       "skills": ["Vue.js", "Node.js", "MySQL", "JWT"],
