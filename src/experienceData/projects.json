@@ -1,6 +1,6 @@
 [
     {
-      "title": "University Eagle Flight Plan",
+      "title": "Eagle Flight Plan” Career Services Web App",
       "imageSrc": "flightplan.png",
       "description": "Full-stack career planning platform helping students track semester-based goals with gamification features like leaderboards and badges.",
       "skills": ["Vue.js", "Node.js", "MySQL", "JWT"],
@@ -9,13 +9,12 @@
       "category": "fullstack"
     },
     {
-      "title": "AI-Enhanced Resume Generator", 
+      "title": "RAG-Powered Document Q&A Chatbot with Streamlit", 
       "imageSrc": "resume.png",
       "description": "Dynamic web application with AI-powered resume optimization and secure authentication using Google Auth.",
-      "skills": ["Vue.js", "JavaScript", "Google Auth", "AI"],
-      "Frontend": "https://github.com/Diella32/Project3-Frontend",
-      "Backend": "https://github.com/Diella32/Project3-backend",
-      "category": "fullstack"
+      "skills": ["Python", "RAG", "LangChain", "FAISS", "HuggingFace Transformers "],
+      "Frontend": "https://github.com/LauraNsenga/RAG-Powered-Q-A-ChatBot/blob/main/project1.py",
+      "category": "AI"
     },
     {
       "title": "AI-Powered Pacman Game",
