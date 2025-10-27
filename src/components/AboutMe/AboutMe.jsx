@@ -33,10 +33,15 @@ export const About = () => {
                 and MySQL. Specializing in RESTful APIs, JWT authentication, and database optimization.
               </p>
               <div className={styles.techTags}>
-                <span>Vue.js</span>
+                <span>Java</span>
+                <span>Python</span>
                 <span>React</span>
-                <span>Node.js</span>
+                <span>Node.js </span>
                 <span>MySQL</span>
+                <span>MongoDB</span>
+                <span>Vue.js</span>
+                <span>Next.js</span>
+                <span>Spring Boot</span>  
               </div>
             </div>
           </div>
