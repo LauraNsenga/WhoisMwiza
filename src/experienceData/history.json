@@ -1,27 +1,27 @@
 [
   {
-    "role": "Software Engineer / Marketing Intern",
-    "organisation": "VeSoko Corp",
-    "startDate": "October 2025",
-    "endDate": "January 2025",
+    "role": "Technical Product Manager",
+    "organisation": "Marketeq Digital",
+    "startDate": "May 2026",
+    "endDate": "August 2026",
     "experiences": [
-      "Develop full-stack features using Next.js, Node.js, and MongoDB, implementing frontend components and RESTful APIs in an Agile workflow (Jira) to enhance user experience and increase conversions",
-     "Plan and execute integrated marketing campaigns across social media and email, creating video content and analyzing weekly performance metrics while onboarding retail partners to expand the vendor network"
+   "Own epic delivery across Agile sprints, using Claude AI to audit frontend specs, identify Figma documentation gaps, and generate engineering-ready Jira tickets with validated acceptance criteria.",
+"Coordinate cross-functional team delivery across engineering, QA, and design by managing Jira workflow stages, tracking ticket movement, and using Claude to synthesize backend architecture docs into actionable frontend dependencies."
     ],
-    "imageSrc": "vesokologo.png"
+    "imageSrc": "marketeq.png"
   },
   {
-    "role": "Technology Development Specialist",
-    "organisation": "JASCO",
-    "startDate": "January 2025",
-    "endDate": "May 2025",
+    "role": "AI Engineer & Product Manager Intern",
+    "organisation": "VeSoko Corp",
+    "startDate": "October 2025",
+    "endDate": "September 2026",
     "experiences": [
-      "Conduct in-depth analysis of emerging technologies to drive innovation and support strategic business goals",
-      "Manage the full lifecycle of technology development projects, from initial concept through implementation",
-      "Collaborate with internal and external stakeholders to identify business requirements and deliver customized solutions",
-      "Align technology solutions with organizational objectives and strategic planning"
+    "Transitioned into AI product ownership, defining scope, sprint priorities, and delivery roadmap for VeSoko's AI-powered MCP ecosystem and LangGraph agent products",
+"Architected VeSoko’s MCP ecosystem (server, agent, client), building 15+ FastMCP tools enabling AI-driven product discovery and checkout workflows, increasing conversion by 35%.",
+"Built a LangGraph reactive agent with Claude Sonnet 4.5, adding PostgreSQL checkpointing, context management, and prompt caching to cut token costs and latency by 40%.",
+"Built a Next.js/React AI chat interface integrated with FastAPI and co-designed in Figma with PM/UX teams, delivering a production-ready UI in 3 weeks."
     ],
-    "imageSrc": "Jasco-logo-blue.png"
+    "imageSrc": "vesokologo.png"
   },
   {
     "role": "Quality Assurance Intern",
