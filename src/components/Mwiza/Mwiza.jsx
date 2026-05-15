@@ -49,7 +49,7 @@ Outside of tech, some of my hobbies are music production, running, and cooking!
       
       <div className={styles.imageSection}>
         <div className={styles.floatingElements}>
-          <div className={styles.techBadge} style={{'--delay': '0s'}}>Vue.js</div>
+          <div className={styles.techBadge} style={{'--delay': '0s'}}>Product Management</div>
           <div className={styles.techBadge} style={{'--delay': '1s'}}>Node.js</div>
           <div className={styles.techBadge} style={{'--delay': '2s'}}>Python</div>
           <div className={styles.techBadge} style={{'--delay': '3s'}}>AI/ML</div>
