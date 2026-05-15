@@ -21,7 +21,7 @@ Outside of tech, some of my hobbies are music production, running, and cooking!
         
         <div className={styles.stats}>
           <div className={styles.stat}>
-            <span className={styles.statNumber}>3+</span>
+            <span className={styles.statNumber}>4+</span>
             <span className={styles.statLabel}>Years Coding</span>
           </div>
           <div className={styles.stat}>
@@ -29,7 +29,7 @@ Outside of tech, some of my hobbies are music production, running, and cooking!
             <span className={styles.statLabel}>Major Projects</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statNumber}>3</span>
+            <span className={styles.statNumber}>4</span>
             <span className={styles.statLabel}>Internships</span>
           </div>
         </div>
@@ -61,7 +61,7 @@ Outside of tech, some of my hobbies are music production, running, and cooking!
         
         <img
           src={getImageUrl("Mwiza.png")}
-          alt="Laura Mwiza Nsenga - Full Stack Developer"
+          alt="Laura Mwiza Nsenga - AI Developer"
           className={styles.heroImg}
         />
       </div>
