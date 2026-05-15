@@ -11,17 +11,10 @@
     {
       "title": "RAG-Powered Document Q&A Chatbot with Streamlit", 
       "imageSrc": "resume.png",
-      "description": "Dynamic web application with AI-powered resume optimization and secure authentication using Google Auth.",
+      "description": "Built a RAG chatbot with Phi-3 and FAISS, using Streamlit UI (<5s responses) and semantic search with embeddings, chunking, and top-k retrieval for accurate, context-aware answers.",
       "skills": ["Python", "RAG", "LangChain", "FAISS", "HuggingFace Transformers "],
       "Frontend": "https://github.com/LauraNsenga/RAG-Powered-Q-A-ChatBot/blob/main/project1.py",
       "category": "AI"
     },
-    {
-      "title": "AI-Powered Pacman Game",
-      "imageSrc": "pacman.png",
-      "description": "An intelligent Pacman game implementation using Python and Pygame, featuring AI algorithms for ghost behavior and pathfinding optimization",
-      "skills": ["Python", "Pygame", "AI Algorithms", "Pathfinding", "Game Development", "Object-Oriented Programming"],
-      "Frontend": "https://github.com/LauraNsenga/PacmanAI/",
-      "category": "AI"
-    }
+
   ]
