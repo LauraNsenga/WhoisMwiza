@@ -18,7 +18,6 @@
     "experiences": [
     "Transitioned into AI product ownership, defining scope, sprint priorities, and delivery roadmap for VeSoko's AI-powered MCP ecosystem and LangGraph agent products",
 "Architected VeSoko’s MCP ecosystem (server, agent, client), building 15+ FastMCP tools enabling AI-driven product discovery and checkout workflows, increasing conversion by 35%.",
-"Built a LangGraph reactive agent with Claude Sonnet 4.5, adding PostgreSQL checkpointing, context management, and prompt caching to cut token costs and latency by 40%.",
 "Built a Next.js/React AI chat interface integrated with FastAPI and co-designed in Figma with PM/UX teams, delivering a production-ready UI in 3 weeks."
     ],
     "imageSrc": "vesokologo.png"
