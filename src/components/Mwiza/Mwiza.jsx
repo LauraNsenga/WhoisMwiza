@@ -14,8 +14,8 @@ export const Mwiza = () => {
         <h1 className={styles.title}>Hi, I'm Laura</h1>
         
         <p className={styles.description}>
-I'm a Computer Science graduate with a dual degree in AI and Cybersecurity, currently working as a Technical Product Manager and AI Engineer across two startups. I specialize in bridging the gap between technical teams and product delivery — using tools like Jira, Figma, and Claude AI to ship intelligent, well-scoped features on time.
-On the engineering side, I build with LLMs, MCPs, LangGraph, and full-stack technologies like React, Next.js, and FastAPI. I'm passionate about AI product development — specifically turning complex AI infrastructure into real products that users actually experience.
+I'm a Computer Science graduate with a dual degree in AI and Cybersecurity, currently working as a Technical Product Manager and AI Engineer across two startups. I specialize in bridging the gap between technical teams and product delivery, using tools like Jira, Figma, and Claude AI to ship intelligent, well-scoped features on time.
+On the engineering side, I build with LLMs, MCPs, LangGraph, and full-stack technologies like React, Next.js, and FastAPI. I'm passionate about AI product development with a purpose; building infrastructure and tools that find a solution for humanity's hardest problems: detecting diseases earlier, making quality education accessible to all, expanding economic opportunity, and breaking language barriers.
 Outside of tech, some of my hobbies are music production, running, and cooking!
         </p>
         
