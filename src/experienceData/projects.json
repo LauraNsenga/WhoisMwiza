@@ -12,9 +12,8 @@
       "title": "RAG-Powered Document Q&A Chatbot with Streamlit", 
       "imageSrc": "resume.png",
       "description": "Built a RAG chatbot with Phi-3 and FAISS, using Streamlit UI (<5s responses) and semantic search with embeddings, chunking, and top-k retrieval for accurate, context-aware answers.",
-      "skills": ["Python", "RAG", "LangChain", "FAISS", "HuggingFace Transformers "],
+      "skills": ["Python", "RAG", "LangChain", "FAISS", "HuggingFace Transformers"],
       "Frontend": "https://github.com/LauraNsenga/RAG-Powered-Q-A-ChatBot/blob/main/project1.py",
       "category": "AI"
-    },
-
+    }
   ]
