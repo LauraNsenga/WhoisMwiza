@@ -5,6 +5,7 @@ import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
 import { Navbar } from "./components/Navbar/NavigationBar";
 import { Projects } from "./components/PersonalProjects/PersonalProjects";
+import ChatWidget from "../src/components/ChatBot/ChatWidget";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <ChatWidget />
     </div>
   );
 }

@@ -1,0 +1,28 @@
+[project]
+name = "agent-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "LauraNsenga", email = "mwizalaura12@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "gradio>=6.26.0",
+    "openai>=3.5.0",
+    "pypdf>=6.16.2",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "uvicorn>=0.52.4",
+]
+
+[project.scripts]
+agent-backend = "agent_backend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false
