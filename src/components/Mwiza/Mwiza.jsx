@@ -14,15 +14,9 @@ export const Mwiza = () => {
         <h1 className={styles.title}>Hi, I'm Laura</h1>
         
         <p className={styles.description}>
-<<<<<<< HEAD
 I'm a Computer Science graduate with a dual degree in AI and Cybersecurity, working as a Technical Product Manager and AI Engineer across two startups. I bridge technical teams and product delivery by shipping intelligent, well-scoped features using tools like Jira, Figma, and Claude AI, while building on the engineering side with LLMs, LangGraph, and full-stack technologies like React, Next.js, and FastAPI.
 I'm passionate about AI with a purpose: building tools that detect diseases earlier, make education accessible, expand economic opportunity, and break language barriers.
 Outside of tech, I'm into music production, running, and cooking
-||||||| parent of 5c36325 (Added chatbot and digital twin agent so any users can ask me questions or contact me)
-        I'm a Computer Science graduate specializing in Cybersecurity with a passion for full-stack development and AI integration. I have experience building scalable web applications using Vue.js, React, and Node.js, and I'm currently pursuing my Master's in Artificial Intelligence. Outside of tech, I'm active in my church's worship team as a vocalist and enjoy playing guitar/piano.I also enjoy going on walks and playing basketball.
-=======
-        I'm a Computer Science graduate specializing in Cybersecurity & AI with a passion for full-stack development and CI/CD. I aspire to create systems that make the world a better place . Let's connect!
->>>>>>> 5c36325 (Added chatbot and digital twin agent so any users can ask me questions or contact me)
         </p>
         
         <div className={styles.stats}>
@@ -55,11 +49,11 @@ Outside of tech, I'm into music production, running, and cooking
       
       <div className={styles.imageSection}>
         <div className={styles.floatingElements}>
-          <div className={styles.techBadge} style={{'--delay': '0s'}}>Technical Product Management</div>
+          <div className={styles.techBadge} style={{'--delay': '0s'}}>React</div>
           <div className={styles.techBadge} style={{'--delay': '1s'}}>Node.js</div>
           <div className={styles.techBadge} style={{'--delay': '2s'}}>Python</div>
           <div className={styles.techBadge} style={{'--delay': '3s'}}>AI/ML</div>
-          <div className={styles.techBadge} style={{'--delay': '4s'}}>React</div>
+          <div className={styles.techBadge} style={{'--delay': '4s'}}>Technical Product Management</div>
           <div className={styles.techBadge} style={{'--delay': '5s'}}>Cloud Security</div>
           <div className={styles.techBadge} style={{'--delay': '1.5s'}}>MySQL</div>
           <div className={styles.techBadge} style={{'--delay': '3.5s'}}>JavaScript</div>
