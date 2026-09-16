@@ -87,7 +87,10 @@ export default function ChatWidget() {
 
       <div className={styles.messageList}>
         {messages.length === 0 && (
-          <p className={styles.emptyState}>Ask me anything about my career.</p>
+          <p className={styles.emptyState}>
+            I am Mwiza's Digital Twin! Ask me anything about my career or let me
+            know if you want to get in touch!
+          </p>
         )}
         {messages.map((msg, i) => (
           <div
